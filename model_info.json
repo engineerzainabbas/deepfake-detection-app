@@ -1,0 +1,11 @@
+{
+  "img_size": 128,
+  "threshold": 0.5,
+  "class_indices": {
+    "real": 0,
+    "fake": 1
+  },
+  "preprocessing": "float32 / 255.0",
+  "model": "MobileNetV2",
+  "note": "sigmoid >= 0.5 \u2192 FAKE"
+}
